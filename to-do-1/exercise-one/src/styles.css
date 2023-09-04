@@ -1,0 +1,274 @@
+/* 
+Josh Comeau Css Reset:
+https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
+    background-color: #ECECEC;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0,0,0, 0.25);
+    padding: 30px 50px;
+    padding-bottom: 80px;
+}
+
+h1 {
+    font-weight: 400px;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #181725;
+}
+
+p, h3 {
+    text-align: center;
+}
+
+p {
+    font-size: large;
+}
+
+p, input, h3 {
+    margin-bottom: 20px;
+}
+
+input {
+    background-color: #181725;
+    border-radius: 5px;
+    color: white;
+    padding: 6px 12px;
+}
+
+button {
+    background-color: #12E497;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+        box-shadow: 0px 4px 4px rgba(0,0,0, 0.25);
+    cursor: pointer;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    float: left;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* For mobile phones: */
+    .col-mp-1 {
+        width: 8.33%;
+    }
+
+    .col-mp-2 {
+        width: 16.66%;
+    }
+
+    .col-mp-3 {
+        width: 25%;
+    }
+
+    .col-mp-4 {
+        width: 33.33%;
+    }
+
+    .col-mp-5 {
+        width: 41.66%;
+    }
+
+    .col-mp-6 {
+        width: 50%;
+    }
+
+    .col-mp-7 {
+        width: 58.33%;
+    }
+
+    .col-mp-8 {
+        width: 66.66%;
+    }
+
+    .col-mp-9 {
+        width: 75%;
+    }
+
+    .col-mp-10 {
+        width: 83.33%;
+    }
+
+    .col-mp-11 {
+        width: 91.66%;
+    }
+
+    .col-mp-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* For tablets: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
